@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101a2d">
+  <title>HX8 — Gaming Lounge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="topline"><span>HX8 CLUB</span><span>PLAY SMART · STAY IN CONTROL</span></div>
+  <header class="header">
+    <a class="brand" href="#" data-page="home"><span class="brand-mark">H</span><span>H<span class="brand-accent">X</span>8</span></a>
+    <nav class="nav">
+      <a href="#" data-page="home" class="active">Home</a>
+      <a href="#" data-page="games">Games</a>
+      <a href="#" data-page="promotions">Promotions</a>
+    </nav>
+    <div class="header-actions" id="headerActions">
+      <button class="btn btn-ghost" data-open="login">Log in</button>
+      <button class="btn btn-primary" data-open="register">Join now</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page active" id="page-home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> THE HX8 EXPERIENCE</div>
+        <h1>ENTER A NEW<br><em>GAME WORLD.</em></h1>
+        <p class="hero-text">A bold gaming lounge with a fresh look, smooth navigation and your own member space.</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary btn-large" data-open="register">Create account <span>↗</span></button>
+          <button class="btn btn-outline btn-large" data-page="games">Explore games</button>
+        </div>
+        <div class="hero-foot"><span>✦ Member dashboard</span><span>✦ Fresh gaming lobby</span><span>✦ Responsive experience</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract gaming artwork">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="glass-card"><div class="card-top"><span>HX8 / PLAY LOUNGE</span><span class="live-dot">● ONLINE</span></div><div class="big-eight">8</div><div class="card-bottom"><span>LEVEL UP<br><b>YOUR MOMENT</b></span><span class="mini-mark">HX8</span></div></div>
+        <div class="float-chip chip-one">✦ NEXT LEVEL</div><div class="float-chip chip-two">GAME ON <b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="page content-page" id="page-games">
+      <div class="section-head"><div><div class="eyebrow">THE LOBBY</div><h2>Explore <em>Games</em></h2></div><span class="muted">Choose a category to explore</span></div>
+      <div class="game-grid">
+        <article class="game-card game-purple"><div class="game-symbol">♛</div><span class="game-tag">STRATEGY</span><h3>Royal Arena</h3><p>Think ahead. Make your move.</p><button class="text-btn" data-notice="Game integrations can be connected here after licensing and provider setup.">Explore <b>↗</b></button></article>
+        <article class="game-card game-blue"><div class="game-symbol">✦</div><span class="game-tag">ARCADE</span><h3>Neon Rush</h3><p>Fast-paced arcade atmosphere.</p><button class="text-btn" data-notice="Game integrations can be connected here after licensing and provider setup.">Explore <b>↗</b></button></article>
+        <article class="game-card game-orange"><div class="game-symbol">◈</div><span class="game-tag">PUZZLE</span><h3>Crystal Quest</h3><p>Find patterns. Solve the challenge.</p><button class="text-btn" data-notice="Game integrations can be connected here after licensing and provider setup.">Explore <b>↗</b></button></article>
+        <article class="game-card game-green"><div class="game-symbol">⬡</div><span class="game-tag">CLASSIC</span><h3>Classic Zone</h3><p>A familiar place for classic games.</p><button class="text-btn" data-notice="Game integrations can be connected here after licensing and provider setup.">Explore <b>↗</b></button></article>
+      </div>
+      <p class="notice">Game tiles are ready for approved game-provider integration. No wagering or cash-play function is enabled in this starter project.</p>
+    </section>
+
+    <section class="page content-page" id="page-promotions">
+      <div class="section-head"><div><div class="eyebrow">HX8 EXTRAS</div><h2>Member <em>Promotions</em></h2></div></div>
+      <div class="promo-panel"><div class="promo-star">✦</div><div><span class="game-tag">MEMBER PERKS</span><h2>Your next chapter<br>starts here.</h2><p>Use this space for announcements, events and eligible member benefits.</p></div><button class="btn btn-primary" data-open="register">Become a member</button></div>
+    </section>
+
+    <section class="page content-page" id="page-dashboard">
+      <div class="section-head"><div><div class="eyebrow">YOUR SPACE</div><h2>Member <em>Dashboard</em></h2></div><span class="member-pill">● MEMBER</span></div>
+      <div class="dashboard-grid">
+        <div class="welcome-panel"><span class="game-tag">WELCOME BACK</span><h2 id="welcomeName">Player</h2><p>Your HX8 member space is ready.</p><div class="account-line"><span>Account email</span><b id="accountEmail">—</b></div><div class="account-line"><span>Member since</span><b id="accountDate">—</b></div></div>
+        <div class="quick-panel"><h3>Quick access</h3><button class="quick-link" data-page="games">Explore games <b>↗</b></button><button class="quick-link" data-page="promotions">Member promotions <b>↗</b></button><button class="quick-link" data-page="profile">My profile <b>↗</b></button></div>
+      </div>
+      <div class="notice warning">Wallet, deposits, withdrawals and real-money play are intentionally disabled. They require appropriate local legal approval, licensed providers, payment compliance and security review before activation.</div>
+    </section>
+
+    <section class="page content-page" id="page-profile">
+      <div class="section-head"><div><div class="eyebrow">ACCOUNT SETTINGS</div><h2>My <em>Profile</em></h2></div></div>
+      <div class="profile-panel"><div class="avatar" id="profileAvatar">H</div><div><h3 id="profileName">Player</h3><p id="profileEmail" class="muted">—</p><span class="member-pill">HX8 MEMBER</span></div><button class="btn btn-ghost logout-btn" id="logoutBtn">Log out</button></div>
+    </section>
+
+    <section class="page content-page" id="page-admin">
+      <div class="section-head"><div><div class="eyebrow">CONTROL ROOM</div><h2>Admin <em>Panel</em></h2></div></div>
+      <div class="admin-panel"><h3>Registered members</h3><div id="userTable">Loading…</div></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#" data-page="home"><span class="brand-mark">H</span><span>H<span class="brand-accent">X</span>8</span></a><span>© <span id="year"></span> HX8 Gaming Lounge</span><span>Play responsibly. 18+ where applicable.</span></footer>
+
+  <div class="modal-backdrop" id="authModal" aria-hidden="true">
+    <div class="modal">
+      <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+      <div class="eyebrow">WELCOME TO HX8</div><h2 id="modalTitle">Create your account</h2><p class="muted" id="modalSub">Join the HX8 member lounge.</p>
+      <form id="authForm">
+        <div id="usernameField"><label for="username">Username</label><input id="username" name="username" minlength="2" maxlength="30" placeholder="Your username" autocomplete="username"></div>
+        <label for="email">Email address</label><input id="email" name="email" type="email" required placeholder="you@example.com" autocomplete="email">
+        <label for="password">Password</label><input id="password" name="password" type="password" required minlength="10" placeholder="At least 10 characters" autocomplete="new-password">
+        <p class="form-message" id="formMessage"></p>
+        <button class="btn btn-primary btn-large full-btn" id="submitAuth">Create account <span>↗</span></button>
+      </form>
+      <p class="switch-auth" id="switchAuth">Already a member? <button type="button" data-switch="login">Log in</button></p>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
